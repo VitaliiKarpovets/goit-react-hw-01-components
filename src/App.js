@@ -14,19 +14,18 @@ const { username, tag, location, avatar, stats } = user;
 function App() {
   return (
     <Fragment>
-    <Profile
-      username={username}
-      tag={tag}
-      location={location}
-      avatar={avatar}
-      stats={stats}
-    />
-
+      <Profile
+        username={username}
+        tag={tag}
+        location={location}
+        avatar={avatar}
+        stats={stats}
+      />
       <FriendList friends={friends} />
       <Statistics title="Upload stats" stats={data} />
       <Statistics stats={data} />
       <TransactionHistory items={transactions} />
-      </Fragment>
+    </Fragment>
   );
 }
 
