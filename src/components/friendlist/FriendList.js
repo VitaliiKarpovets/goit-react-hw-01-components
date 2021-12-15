@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import FriendListItem from './friendlistitem/FriendListItem';
-import friends from './friends.json';
+import friends from '../../dataJSON/friends.json';
 import {List} from './FriendList.styled'
 
 

@@ -1,12 +1,12 @@
 import { Fragment } from 'react';
 import Profile from './components/profile';
-import user from './components/profile/user.json';
+import user from './dataJSON/user.json';
 import FriendList from './components/friendlist/FriendList';
-import friends from './components/friendlist/friends.json';
+import friends from './dataJSON/friends.json';
 import Statistics from './components/statistics/Statistics';
-import data from './components/statistics/data.json';
+import data from './dataJSON/data.json';
 import TransactionHistory from './components/transactionhistory/TransactionHistory';
-import transactions from './components/transactionhistory/transactions.json'
+import transactions from './dataJSON/transactions.json'
 
 const { username, tag, location, avatar, stats } = user;
 

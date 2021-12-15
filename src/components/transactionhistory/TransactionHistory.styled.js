@@ -22,10 +22,10 @@ export const TableBody = styled.tbody`
 `
 
 export const BodyRow = styled.tr`
-    :nth-child(even) {
+    :nth-of-type(even) {
         background-color: #FFFFFF;
     };
-    :nth-child(odd) {
+    :nth-of-type(odd) {
         background-color: #00FFFF;
     }
 `
